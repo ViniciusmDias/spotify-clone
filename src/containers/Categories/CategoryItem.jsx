@@ -7,6 +7,7 @@ const CategoryItem = ({ id, icon, name, url }) => (
   <div
     className="categories__item"
     style={{backgroundImage: `url(${icon.url})`}}
+    data-testid="category"
   >
     <Link
       to={`${url}/${id}`}

@@ -37,7 +37,7 @@ const Track = ({ track }) => {
   return (
     <div
       className={`track ${isPlaying && 'is-playing'}`}
-      onClick={handleClick}>
+      onClick={handleClick} data-testid="track">
       <div className="track__play">
         <div className="track__play__wrapper">
           <BsPlayFill className="track__play__icon" />
