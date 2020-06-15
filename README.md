@@ -58,15 +58,15 @@ The project contains the following folders
 
 ./src
 
-/actions
-/assets
-/components => Reusable application components;
-/config
-/constants
-/containers
-/modules
-/reducers
-/routes
-/store
+- /actions
+- /assets
+- /components => Reusable application components;
+- /config
+- /constants
+- /containers
+- /modules
+- /reducers
+- /routes
+- /store
 
 ---
